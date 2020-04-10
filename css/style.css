@@ -1,0 +1,135 @@
+/*
+Color palatte
+#E1F2F7
+#EF0D50
+#EB3A70
+#E5BACE
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto|Rozha+One&display=swap');
+
+body {
+    background-color: #E1F2F7;
+    font-size: 0.75rem;
+    line-height: 1.6rem;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/*header*/
+
+a {
+    color: #EB3A70;
+}
+
+a:hover {
+    color: #EB3A70;
+    text-decoration: none;
+}
+
+button {
+    color: #EB3A70;
+    background-color: #E5BACE;
+    border: none;
+    widows: 100%;
+    font-family: 'Rozha One', serif;
+    font-size: 24px;
+    padding: 15px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+}
+
+.container {
+    margin: auto;
+    background-color: #E1F2F7;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 20px;
+    font-family: 'Rozha One', serif;
+    color: #EF0D50;
+}
+
+.display-4 {
+    font-family: 'Rozha One', serif;
+    color: #e1f2f7;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.lead {
+    color: #e1f2f7;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 26px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+/*main*/
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    padding-top: 20px;
+    text-align: center;
+}
+
+/*Portfolio*/
+.item {
+    margin-top: 2rem;
+}
+
+.card {
+    border: none;
+
+}
+
+@media screen and (min-width: 35rem) {
+    body {
+        line-height: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .img-fluid {
+        float: left;
+        margin-right: 30px;
+        width: 200px;
+    }
+
+    .articles {
+        min-height: 250px;
+    }
+
+    .title {
+        clear: both;
+    }
+}
+
+@media (min-width: 80rem) {
+    body {
+        line-height: 1.6rem;
+        font-size: 1.25rem;
+    }
+
+    .articles {
+        min-height: 400px;
+    }
+
+    .img-fluid {
+        width: 40%;
+    }
+
+    .title {
+        clear: both;
+    }
+}
